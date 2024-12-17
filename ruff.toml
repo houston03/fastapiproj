@@ -1,0 +1,4 @@
+select = ["E", "F", "W"]
+ignore = ["E501", "F401"]
+line-length = 88
+target-version = "py312"

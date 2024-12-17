@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "blog-app"
+version = "0.1.0"
+description = ""
+authors = ["houston03 <super.avel-2014@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.6"
+uvicorn = "^0.32.1"
+sqlalchemy = "^2.0.36"
+alembic = "^1.14.0"
+psycopg2-binary = "^2.9.10"
+pydantic = "^2.10.3"
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+celery = {extras = ["redis"], version = "^5.4.0"}
+pytest = "^8.3.4"
+requests = "^2.32.3"
+email-validator = "^2.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
